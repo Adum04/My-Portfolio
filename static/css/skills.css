@@ -1,0 +1,302 @@
+/* @keyframes floatDiv {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+} */
+.skill{
+    text-align: center;
+    font-size: 5.5rem;
+    color: #cfb53b;
+    font-family: 'HarryPotterFont', serif;
+    animation: zoomOut 4s ease-in-out forwards,float 4s ease-in-out infinite;
+    position: absolute;
+    top: 90px;
+    bottom: 100px;
+    left: 340px;
+}
+@keyframes zoomOut{
+    0%{
+        transform: scale(3);
+        opacity: 0;
+    }
+    50%{
+        transform: scale(2);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+}
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.certi{
+    text-align: center;
+    font-size: 5.5rem;
+    color: #cfb53b;
+    font-family: 'HarryPotterFont', serif;
+    animation: zoomOut 4s ease-in-out forwards,float 4s ease-in-out infinite;
+    position: absolute;
+    top: 100px;
+    bottom: 100px;
+    right: 300px;
+}
+@keyframes zoomOut{
+    0%{
+        transform: scale(3);
+        opacity: 0;
+    }
+    50%{
+        transform: scale(2);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+}
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.circle-container {
+    position: relative;
+    width: 600px; /* Size of the entire container */
+    height: 600px;
+    position: absolute;
+    top: 120px;
+    bottom: 100px;
+    left: 65px;
+    margin: 50px auto; /* Center the container */
+}
+
+
+.image {
+    position: absolute;
+    width: 100px; /* Image width */
+    height: 100px; /* Image height */
+    object-fit: cover; /* Keeps the full image visible */
+    padding: 5px; /* Space around the images */
+}
+
+/* Individual image positions around the circle */
+.image:nth-child(1){
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg) translate(230px) rotate(-0deg);
+   
+}
+
+.image:nth-child(2){
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(40deg) translate(230px) rotate(-40deg);
+    
+}
+
+.image:nth-child(3){
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(80deg) translate(230px) rotate(-80deg);
+    
+}
+
+.image:nth-child(4){
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(120deg) translate(230px) rotate(-120deg);
+   
+}
+
+.image:nth-child(5){
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(160deg) translate(230px) rotate(-160deg);
+    
+}
+
+.image:nth-child(6){
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(200deg) translate(230px) rotate(-200deg);
+   
+}
+
+.image:nth-child(7){
+    width: 75px;
+    height: 100px;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(240deg) translate(230px) rotate(-240deg);
+    
+}
+
+.image:nth-child(8){
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(280deg) translate(230px) rotate(-280deg);
+    
+}
+
+.image:nth-child(9){
+    width: 150px;
+    height: 75px;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(320deg) translate(230px) rotate(-320deg);
+   
+}
+
+.certif{
+    position: relative;
+    width: 600px; /* Size of the entire container */
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    right: 25px;
+
+    animation: zoomOut 3s ease-in-out step-end;
+
+}
+@keyframes zoomOut{
+    0%{
+        transform: scale(3);
+        opacity: 0;
+    }
+    50%{
+        transform: scale(2);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+}
+
+
+.nptel {
+    font-family:'lumos',serif; 
+    color: #cfb53b;
+    position: absolute;
+    top: 225px; /* Position from the top */
+    right: 450px;
+
+
+}
+
+
+.isro {
+    font-family:'lumos',serif; 
+    color: #cfb53b;
+
+    position: absolute;
+    top: 223px;
+    right: 125px;
+    
+}
+
+.cisco {
+    font-family:'lumos',serif; 
+    color: #cfb53b;
+   
+    position: absolute;
+    top: 375px;
+    right: 500px;
+    
+  
+}
+
+.octa {
+    font-family:'lumos',serif; 
+    color: #cfb53b;
+
+    position: absolute;
+    top: 375px;
+    right: 75px;
+    
+ 
+}
+
+.phn {
+    font-family:'lumos',serif; 
+    color: #cfb53b;
+
+    position: absolute;
+    top: 530px;
+    right: 450px;
+   
+ 
+    
+}
+
+.champa {
+    font-family:'lumos',serif; 
+    color: #cfb53b;
+
+    position: absolute;
+    top: 650px;
+    right: 275px;
+
+ 
+}
+
+.campa {
+    font-family:'lumos',serif; 
+    color: #cfb53b;
+
+    position: absolute;
+    top: 530px;
+    right: 125px;
+
+
+     
+}

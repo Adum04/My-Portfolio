@@ -1,0 +1,70 @@
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.navbar {
+    background-color: transparent !important;
+    box-shadow: none;}
+.navbar-nav .nav-link {
+    transition: transform 0.3s ease;
+    font-family: 'HarryPotterFont', serif;
+    font-size: 1.5rem; 
+    color: #cfb53b; 
+}
+.navbar-nav .nav-link:hover {
+    transform: scale(1.1);
+    /* animation: float 0.3s ease-in-out; */
+    color: #adb9c6; 
+  }
+/* .navbar {
+    top: -100px;
+    transition: top 0.3s ease-in-out;
+}
+  this is hover effect
+.show-navbar {
+    top: 0;
+} */
+
+  
+@font-face {
+    font-family: 'HarryPotterFont'; /* Ensure this matches usage */
+    src: url('../fonts/HARRYP__.ttf') format(truetype),
+        url('../fonts/HARRYP__.TTF') format(woff2),
+        url('../fonts/HARRYP__.TTF') format(woff); /* Adjust the path if needed */
+}
+@font-face {
+    font-family: 'lumos';
+    src: url('../fonts/Magik.TTF')  format(truetype),
+    url('../fonts/Magik.TTF')  format(woff2),
+    url('../fonts/Magik.TTF')  format(woff);
+}
+@font-face {
+    font-family: 'scary';
+    src: url('../fonts/ScaryNotesPersonalUse-ZVAxl\ copy.otf') format(truetype);
+}
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Ensure this is set to column */
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/tumblr_maolcpnQS61qakj1do1_500.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+
+

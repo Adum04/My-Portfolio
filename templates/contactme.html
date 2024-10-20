@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block style%}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/contact.css') }}">
+{% endblock %}
+
+{% block content %} 
+
+{% if name %}
+<div class="submitted">
+    <h3> Thanks {{name}}.</h3>
+    <h3>We will get back to you soon.</h3>
+</div>
+{% else %}
+<div class="page">
+    <h1>Contact Me</h1>
+</div>
+    <br>
+    <form method="POST" class="contact-form">
+        {{ form.hidden_tag() }}
+
+        <div class="form-group">
+            {{ form.name.label }} <br>
+            {{ form.name(class_="form-input") }}<br>
+        </div>
+
+        <div class="form-group">
+            {{ form.email.label }} <br>
+            {{ form.email(class_="form-input") }}<br>
+        </div>
+
+        <div class="form-group">
+            {{ form.phone.label }} <br>
+            {{ form.phone(class_="form-input") }}<br>
+        </div>
+
+        <div class="form-group">
+            {{ form.message.label }} <br>
+            {{ form.message(class_="form-input") }}<br>
+        </div>
+
+        <div class="form-group">
+            {{ form.submit(class_="form-submit") }}
+        </div>
+    </form>
+{% endif %}
+
+{% endblock %}

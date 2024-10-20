@@ -1,0 +1,173 @@
+.page {
+    text-align: center;
+    font-size: 5.5rem;
+    color: #cfb53b;
+    font-family: 'HarryPotterFont', serif;
+    animation: zoomOut 4s ease-in-out forwards, float 4s ease-in-out forwards; 
+    position: absolute;
+    top: 50px;
+    bottom: 100px;
+    left: 570px;
+    }
+@keyframes zoomOut{
+    0%{
+        transform: scale(3);
+        opacity: 0;
+    }
+    50%{
+        transform: scale(2);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+}
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+/* General styling for the contact form */
+.contact-form {
+
+    width: 40%;
+    margin: 100px auto 0;
+    padding: 10px;
+    background-color: None;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    animation: zoomOut 4s ease-in-out forwards, float 4s ease-in-out forwards; 
+
+}
+@keyframes zoomOut{
+    0%{
+        transform: scale(3);
+        opacity: 0;
+    }
+    50%{
+        transform: scale(2);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+}
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+/* Styling for form groups */
+.form-group {
+    margin-bottom: 15px;
+    cursor: text;
+    padding: 10px;
+}
+
+/* Input fields styling */
+.form-input {
+    background-color: transparent;
+    width: 75%;
+    padding: 7.5px;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-family: 'HarryPotterFont', serif; /* Use a standard font for input fields */
+    color: white;
+    cursor: text;
+    box-sizing: border-box; /* Ensure padding doesn't overflow the box */
+}
+.form-input:focus {
+    outline: none; /* Remove default outline */
+    border-color: red; /* Change border color on focus */
+    background-color: None;
+}
+/* Submit button styling */
+.form-submit {
+    width: 50%;
+    padding: 12px;
+    background-color: #cfb53b;
+    color:black;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-family: 'HarryPotterFont', serif; /* Keep custom font for the button */
+}
+
+.form-submit:hover {
+    background-color: #b69b32;
+    /* transition: 0.3s; */
+}
+
+/* Form labels */
+label {
+    margin-bottom: 0px;
+    font-size: 1.8rem;
+    font-family: 'HarryPotterFont', serif;
+    color: #cfb53b;
+}
+
+/* Page title styling */
+h1 {
+    text-align: center;
+    font-size: 5.5rem;
+    color: #cfb53b;
+    font-family: 'HarryPotterFont', serif;
+    margin-bottom: 40px;
+}
+
+
+.submitted{
+    text-align: center;
+    font-size: 5.5rem;
+    color: #cfb53b;
+    font-family: 'HarryPotterFont', serif;
+    margin-bottom: 40px;
+    animation: zoomOut 4s ease-in-out forwards, float 4s ease-in-out forwards; 
+}
+
+
+@keyframes zoomOut{
+    0%{
+        transform: scale(3);
+        opacity: 0;
+    }
+    50%{
+        transform: scale(2);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+}
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

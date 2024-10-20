@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'lumos';
+    src: url('../fonts/Magik.TTF') format(truetype),url('../fonts/Magik.TTF')  format(woff2),url('../fonts/Magik.TTF')  format(woff);
+}
+h1 {
+    text-align: center;
+    font-size: 5.5rem;
+    color: #cfb53b;
+    font-family: 'HarryPotterFont', serif;
+    transform: scale(3);
+    animation: zoomOut 3s ease-in-out forwards,float 3s ease-in-out infinite;
+    position: absolute;
+    top: 60px;
+    bottom: 100px;
+    left: 580px;
+    }
+@keyframes zoomOut{
+    0%{
+        transform: scale(3);
+        opacity: 0;
+    }
+    50%{
+        transform: scale(2);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+}
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.content{
+    font-style: bold;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    font-family: 'lumos',serif;
+    position: relative;
+    top: 75px;
+    bottom: 100px;
+    background: url('../images/paper-texture-top-view.jpg');
+    background-size: cover;
+    padding: 10px;
+    border-radius: 250px;
+    animation: zoomOut 3s ease-in-out forwards,float 3s ease-in-out infinite;
+}
+@keyframes zoomOut{
+    0%{
+        transform: scale(1.5) ;
+        opacity: 0;
+    }
+    50%{
+        transform: scale(1.2);
+        opacity: 0.5;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform:  translateY(0);
+    }
+}
