@@ -111,5 +111,10 @@ def skills():
     return render_template("skills.html")
 
 
+@app.route("/certifications")
+def certifications():
+    return render_template("certifications.html")
+
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, port=8000)

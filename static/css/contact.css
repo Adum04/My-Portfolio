@@ -44,7 +44,7 @@
     padding: 10px;
     background-color: None;
     border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0);
     animation: zoomOut 4s ease-in-out forwards, float 4s ease-in-out forwards; 
 
 }
@@ -79,6 +79,8 @@
     margin-bottom: 15px;
     cursor: text;
     padding: 10px;
+    position: relative;
+    right: 350px;
 }
 
 /* Input fields styling */
@@ -145,6 +147,118 @@ h1 {
 }
 
 
+@keyframes zoomOut{
+    0%{
+        transform: scale(3);
+        opacity: 0;
+    }
+    50%{
+        transform: scale(2);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+}
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.other{
+    position: absolute;
+    right: 100px;
+    text-align: center;
+    font-size: 2.0rem;
+    color: #cfb53b;
+    font-family: 'HarryPotterFont', serif;
+    animation: zoomOut 4s ease-in-out forwards, float 4s ease-in-out forwards; 
+}
+@keyframes zoomOut{
+    0%{
+        transform: scale(3);
+        opacity: 0;
+    }
+    50%{
+        transform: scale(2);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+}
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.mail.other {
+    position: absolute;
+    top: 0px;
+    right: 400px;
+}
+.linked.other {
+    position: absolute;
+    top: 0px;
+    right: 270px;
+}
+.git.other {
+    position: absolute;
+    top: 0px;
+    right: 150px;
+}
+.whatsapp.other {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+.m.other { 
+    position: absolute;
+    top: 60px;
+    right: 405px;
+}
+.l.other {
+    position: absolute;
+    top: 60px;
+    right: 250px;
+}
+.g.other {
+    position: absolute;
+    top: 60px;
+    right: 150px;
+}
+.w.other {
+    position: absolute;
+    top: 60px;
+    right: 5px;
+}
+.ways{
+    position: absolute;
+    top: 330px;
+    right: 250px;
+    text-align: center;
+    font-size: 2.0rem;
+    color: #cfb53b;
+    font-family: 'HarryPotterFont', serif;
+    animation: zoomOut 4s ease-in-out forwards, float 4s ease-in-out forwards; 
+
+}
 @keyframes zoomOut{
     0%{
         transform: scale(3);

@@ -6,8 +6,9 @@
 <div class="skill">
     <h1>Skills </h1>
 </div>
-<div class="certi">
-    <h1>Certifications</h1>
+
+<div class="certificates">
+        <a href="{{ url_for('certifications') }}">Certifications</a>
 </div>
 
 <div class="circle-container">
@@ -21,49 +22,35 @@
     <img src="{{ url_for('static', filename='images/ui.png') }}" alt="Image 8" class="image image8">
     <img src="{{ url_for('static', filename='images/sqlalchemy.jpeg') }}" alt="Image 9" class="image image9">
 </div>
-<div class="certif">
-    <div class="nptel">
-        <a href="https://nptel.ac.in/noc/E_Certificate/NPTEL23CS108S63740534220078556">
-            <img src="{{ url_for('static', filename='logo/nptel.png') }}" alt="NPTEL" width="120px" height="80px" >
-        </a>
-        <h6>click to view</h6>
-    </div>
-    <div class="isro">
-        <a href="https://drive.google.com/file/d/1LBkkMlo1evolH2sZO2y_s9Acw97ZSWq-/view?usp=sharing">
-            <img src="{{ url_for('static', filename='logo/isro.png') }}" alt="ISRO" width="120px" height="85px">
-        </a>
-        <h6>click to view</h6>
-    </div>
-    <div class="cisco">
-        <a href="https://www.credly.com/badges/0fbf1263-cf2a-4213-a728-adcbdb7814e0/linked_in_profile">
-            <img src="{{ url_for('static', filename='logo/cisco.png') }}" alt="CISCO" width="120px" height="80px">
-        </a>
-        <h6>click to view</h6>
-        
-    </div>
-    <div class="octa">
-        <a href="https://drive.google.com/file/d/1fV5D0hFPtoXxzswr9hN-rfZ5fVkvXXmV/view?usp=sharing">
-            <img src="{{ url_for('static', filename='logo/octa.png') }}" alt="OCTANET SERVICES" width="120px" height="80px">
-        </a>
-        <h6>click to view</h6>
-    </div>
-    <div class="phn">
-        <a href="https://drive.google.com/file/d/1fKfJeqj6LS-JmBwWwTGgAibKeF_Pi6XG/view?usp=drive_link">
-            <img src="{{ url_for('static', filename='logo/phn.png') }}" alt="PHN Technology" width="115px" height="75px">
-        </a>
-        <h6>click to view</h6>
-    </div>
-    <div class="champa">
-        <a href="https://drive.google.com/file/d/1Z68eTbkKdHPYTSai7Yn8nzLovX4B1iTw/view?usp=sharing">
-            <img src="{{ url_for('static', filename='logo/champ.png') }}" alt="Champion Excel" width="120px" height="80px">
-        </a>
-        <h6>click to view</h6>
-    </div>
-    <div class="campa">
-        <a href="https://drive.google.com/file/d/1try_QCGY8OwXYzRgZ4tFxOK9Ht7NEIPX/view?usp=drive_link">
-            <img src="{{ url_for('static', filename='logo/campa.png') }}" alt="Campalin Innovations" width="115px" height="75px">
-        </a>
-        <h6>click to view</h6>
-    </div>
+<div class="pl">
+    <h3 class="head">Programming Languages</h3>
+    <h5 class="lang"> Python,SQL</h5>
+    <!-- <h5>SQL</h5> -->
+</div>
+<div class="pc">
+    <h3 class="head">Programming Concepts</h3>
+    <h5 class="lang">OOPS(Object-oriented),Data Structues</h5>
+    <!-- <h5>Data Structures</h5> -->
+</div>
+<div class="fe">
+    <h3 class="head">Front-End</h3>
+    <h5 class="lang">HTML,CSS,Jinja2,Bootstrap</h5>
+    <!-- <h5>CSS</h5> -->
+    <!-- <h5>Jinja2</h5> -->
+</div>
+<div class="be">
+    <h3 class="head">Back-end </h3>
+    <h5 class="lang">Flask,SQLAlchemy</h5>
+    <!-- <h5>SQLAlchemy</h5> -->
+</div>
+<div class="db">
+    <h3 class="head">Database</h3>
+    <h5 class="lang">SQL,MYSql</h5>
+    <!-- <h5>MYSql</h5> -->
+</div>
+<div class="ide">
+    <h3 class="head">IDEs</h3>
+    <h5 class="lang">Visual code,Sublime Text</h5>
+    <!-- <h5>Sublime text</h5> -->
 </div>
 {% endblock %}

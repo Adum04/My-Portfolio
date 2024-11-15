@@ -1,0 +1,152 @@
+.certi{
+    text-align: center;
+    font-size: 5.5rem;
+    color: #cfb53b;
+    font-family: 'HarryPotterFont', serif;
+    animation: zoomOut 4s ease-in-out forwards,float 4s ease-in-out infinite;
+    position: absolute;
+    top: 90px;
+    right: 670px;
+}
+@keyframes zoomOut{
+    0%{
+        transform: scale(3);
+        opacity: 0;
+    }
+    50%{
+        transform: scale(2);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+}
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.certif{
+    position: relative;
+    width: 600px; /* Size of the entire container */
+    height: 600px;
+    position: absolute;
+    top: 5px;
+    right: 400px;
+
+    animation: zoomOut 4s ease-in-out forwards,float 4s ease-in-out infinite;
+}
+
+@keyframes zoomOut{
+    0%{
+        transform: scale(3);
+        opacity: 0;
+    }
+    50%{
+        transform: scale(2);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+}
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+.nptel {
+    font-family:'lumos',serif; 
+    color: #cfb53b;
+    position: absolute;
+    top: 225px; /* Position from the top */
+    right: 450px;
+
+
+}
+
+
+.isro {
+    font-family:'lumos',serif; 
+    color: #cfb53b;
+
+    position: absolute;
+    top: 223px;
+    right: 125px;
+    
+}
+
+.cisco {
+    font-family:'lumos',serif; 
+    color: #cfb53b;
+   
+    position: absolute;
+    top: 375px;
+    right: 500px;
+    
+  
+}
+
+.octa {
+    font-family:'lumos',serif; 
+    color: #cfb53b;
+
+    position: absolute;
+    top: 375px;
+    right: 75px;
+    
+ 
+}
+
+.phn {
+    font-family:'lumos',serif; 
+    color: #cfb53b;
+
+    position: absolute;
+    top: 530px;
+    right: 450px;
+   
+ 
+    
+}
+
+.champa {
+    font-family:'lumos',serif; 
+    color: #cfb53b;
+
+    position: absolute;
+    top: 650px;
+    right: 275px;
+
+ 
+}
+
+.campa {
+    font-family:'lumos',serif; 
+    color: #cfb53b;
+
+    position: absolute;
+    top: 530px;
+    right: 125px;
+
+
+     
+}

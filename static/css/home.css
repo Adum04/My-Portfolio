@@ -10,16 +10,16 @@
 .github{
     align-items: center;
     position: absolute;
-    top: 680px;
+    top: 685px;
     bottom: 100px;
     left: 695px;
 }
 .resume{
     align-items: center;
     position: absolute;
-    top: 683px;
+    top: 685px;
     bottom: 100px;
-    left: 790px;
+    left: 780px;
 }
 h1 {
     text-align: center;

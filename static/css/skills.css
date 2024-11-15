@@ -11,14 +11,13 @@
 } */
 .skill{
     text-align: center;
-    font-size: 5.5rem;
+    font-size: 5.8rem;
     color: #cfb53b;
     font-family: 'HarryPotterFont', serif;
     animation: zoomOut 4s ease-in-out forwards,float 4s ease-in-out infinite;
     position: absolute;
     top: 90px;
-    bottom: 100px;
-    left: 340px;
+    right: 690px;
 }
 @keyframes zoomOut{
     0%{
@@ -47,16 +46,16 @@
     }
 }
 
-.certi{
-    text-align: center;
-    font-size: 5.5rem;
-    color: #cfb53b;
-    font-family: 'HarryPotterFont', serif;
-    animation: zoomOut 4s ease-in-out forwards,float 4s ease-in-out infinite;
+
+.circle-container {
+    position: relative;
+    width: 600px; /* Size of the entire container */
+    height: 600px;
     position: absolute;
-    top: 100px;
-    bottom: 100px;
-    right: 300px;
+    top: 120px;
+    right: 420px;
+    margin: 50px auto; /* Center the container */
+    animation: zoomOut 4s ease-in-out forwards,float 4s ease-in-out infinite;
 }
 @keyframes zoomOut{
     0%{
@@ -74,26 +73,17 @@
     
 }
 @keyframes float {
-    0% {
+    0%{
         transform: translateY(0);
     }
-    50% {
+    50%{
         transform: translateY(-20px);
     }
-    100% {
+    100%{
         transform: translateY(0);
     }
 }
-.circle-container {
-    position: relative;
-    width: 600px; /* Size of the entire container */
-    height: 600px;
-    position: absolute;
-    top: 120px;
-    bottom: 100px;
-    left: 65px;
-    margin: 50px auto; /* Center the container */
-}
+
 
 
 .image {
@@ -195,108 +185,120 @@
    
 }
 
-.certif{
-    position: relative;
-    width: 600px; /* Size of the entire container */
-    height: 600px;
+.certificates {
+    border: 2px black; 
+    padding: 5px;             
+    background-color: #cfb53b;
+    border-radius: 20px;      
+    width: fit-content;       
+    text-align: center;       
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
     position: absolute;
-    top: 0px;
-    right: 25px;
+    bottom: 50px;
+    right: 100px;
+}
 
-    animation: zoomOut 3s ease-in-out step-end;
+.certificates a {
+    font-family: 'lumos', serif;
+    text-decoration: none; 
+    color: black;       
+    font-weight: bold;     
+    font-size: 25px;       
+}
+.pl .head{
+
+    color: #cfb53b;
+    font-family: 'lumos',serif;
+    position: absolute;
+    top: 200px;
+    left: 200px;
 
 }
-@keyframes zoomOut{
-    0%{
-        transform: scale(3);
-        opacity: 0;
-    }
-    50%{
-        transform: scale(2);
-        opacity: 1;
-    }
-    100%{
-        transform: scale(1);
-        opacity: 1;
-    }
+.pl .lang{
+    color: whitesmoke;
+    font-family: 'HarryPotterFont', serif;
+    position: absolute;
+    top: 240px;
+    left: 260px;
+}
+.pc .head{
+
+    color: #cfb53b;
+    font-family: 'lumos',serif;
+    position: absolute;
+    top: 400px;
+    left: 100px;
+
+}
+.pc .lang{
+    color: whitesmoke;
+    font-family: 'HarryPotterFont', serif;
+    position: absolute;
+    top: 440px;
+    left: 100px;
+}
+.fe .head{
+    color: #cfb53b;
+    font-family: 'lumos',serif;
+    position: absolute;
+    top: 200px;
+    right: 300px;
+
+}
+.fe .lang{
+    font-family: 'HarryPotterFont', serif;
+    color: whitesmoke;
+    position: absolute;
+    top: 240px;
+    right: 250px;
+
+}
+.be .head{
+
+    color: #cfb53b;
+    font-family: 'lumos',serif;
+    position: absolute;
+    top: 390px;
+    right: 250px;
+    
+
+}
+.be .lang{
+    font-family: 'HarryPotterFont', serif;
+    color: whitesmoke;
+    position: absolute;
+    top: 430px;
+    right: 200px;
+}
+.db .head{
+
+    color: #cfb53b;
+    font-family: 'lumos',serif;
+    position: absolute;
+    top: 600px;
+    left: 300px;
     
 }
-
-
-.nptel {
-    font-family:'lumos',serif; 
-    color: #cfb53b;
+.db .lang{
+    font-family: 'HarryPotterFont', serif;
+    color: whitesmoke;
     position: absolute;
-    top: 225px; /* Position from the top */
-    right: 450px;
-
-
+    top: 640px;
+    left: 300px;
 }
+.ide .head{
 
-
-.isro {
-    font-family:'lumos',serif; 
-    color: #cfb53b;
-
+    color:#cfb53b;
+    font-family: 'lumos',serif;
     position: absolute;
-    top: 223px;
-    right: 125px;
+    top: 600px;
+    right: 330px;
     
 }
-
-.cisco {
-    font-family:'lumos',serif; 
-    color: #cfb53b;
-   
+.ide .lang{
+    font-family: 'HarryPotterFont', serif;
+    color: whitesmoke;
     position: absolute;
-    top: 375px;
-    right: 500px;
-    
-  
-}
-
-.octa {
-    font-family:'lumos',serif; 
-    color: #cfb53b;
-
-    position: absolute;
-    top: 375px;
-    right: 75px;
-    
- 
-}
-
-.phn {
-    font-family:'lumos',serif; 
-    color: #cfb53b;
-
-    position: absolute;
-    top: 530px;
-    right: 450px;
-   
- 
-    
-}
-
-.champa {
-    font-family:'lumos',serif; 
-    color: #cfb53b;
-
-    position: absolute;
-    top: 650px;
-    right: 275px;
-
- 
-}
-
-.campa {
-    font-family:'lumos',serif; 
-    color: #cfb53b;
-
-    position: absolute;
-    top: 530px;
-    right: 125px;
-
-
-     
+    top: 640px;
+    right: 250px;
 }
