@@ -6,16 +6,29 @@
 
 <h1>Projects</h1>
 <div class="Portfolio">
-    <img src="{{ url_for('static', filename='images/porto.png') }}" alt="portfolio" class="portfolio-image" width="500px" height="350px" >
+    <a href="">
+        <img src="{{ url_for('static', filename='images/porto.png') }}" alt="portfolio" class="portfolio-image" width="300px" height="200px" >
+    </a>
+    <br>
+    <br>
     <h3>Portfolio</h3>
     <h3>Inspired from Harry potter sequel.</h3>
 </div>
 <div class="todo">
-    <img src="{{ url_for('static', filename='images/tod.png') }}" alt="todo" class="todo-image" width="450px" height="300px" >
+    <a href="https://adum-todo-app.onrender.com/">
+        <img src="{{ url_for('static', filename='images/tod.png') }}" alt="todo" class="todo-image" width="280px" height="180px" >
+    </a>
     <br>
     <br>
     <h3>Task-tracker</h3>
     <h3>CRUD Application.</h3>
+</div>
+<div class="video">
+    <a href="https://github.com/Adum04/Video-Audio-downloader">
+        <img src="{{ url_for('static', filename='images/video.png') }}" alt="video" class="video-image" width="350px" height="260px" >
+    </a>
+    <h3>Viudeo Downloader</h3>
+    <h3>Video-Audio Downloader</h3>
 </div>
 
 {% endblock %}
