@@ -3,20 +3,24 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, TextAreaField, SubmitField, EmailField
 from wtforms.validators import DataRequired, Email, Regexp
 from flask_mail import Mail, Message
+from dotenv import load_dotenv
+import os
 
 
 app = Flask("__name__")
-app.config["SECRET_KEY"] = "Adum1234567890"
+app.config["SECRET_KEY"] = os.getenv("SECRET_KEY")
 
 app.config["MAIL_SERVER"] = "smtp.gmail.com"
 app.config["MAIL_PORT"] = 465
-app.config["MAIL_USERNAME"] = "adum0407@gmail.com"
-app.config["MAIL_PASSWORD"] = "uzbt dnsf mqih vbvv"
+app.config["MAIL_USERNAME"] = os.getenv("MAIL_USERNAME")
+app.config["MAIL_PASSWORD"] = os.getenv("MAIL_PASSWORD")
 app.config["MAIL_USE_TLS"] = False
 app.config["MAIL_USE_SSL"] = True
 
 mail = Mail(app)
-app.secret_key = "Adum1234567890"
+app.secret_key = os.getenv("SECRET_KEY")
+
+load_dotenv()
 
 
 class MyForm(FlaskForm):
