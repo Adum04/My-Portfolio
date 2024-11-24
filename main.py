@@ -8,10 +8,10 @@ from flask_mail import Mail, Message
 app = Flask("__name__")
 app.config["SECRET_KEY"] = "Adum1234567890"
 
-app.config["MAIL_SERVER"] = "smtp.gmail.com" 
+app.config["MAIL_SERVER"] = "smtp.gmail.com"
 app.config["MAIL_PORT"] = 465
-app.config["MAIL_USERNAME"] = "adum0407@gmail.com"  
-app.config["MAIL_PASSWORD"] = "uzbt dnsf mqih vbvv"  
+app.config["MAIL_USERNAME"] = "adum0407@gmail.com"
+app.config["MAIL_PASSWORD"] = "uzbt dnsf mqih vbvv"
 app.config["MAIL_USE_TLS"] = False
 app.config["MAIL_USE_SSL"] = True
 
